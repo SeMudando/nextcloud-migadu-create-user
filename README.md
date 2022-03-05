@@ -19,13 +19,13 @@ Run the command
 
 Replacing:
 
-| Argument | Description |
-| --- | --- |
-| USERNAME | username/userid to be used at nextcloud |
-| DISPLAYNAME | full user name, will be used at both nextcloud and migadu |
-| PASSWORD | user's password, both for nextcloud and for the email (which should be used inside nextcloud, without the user knowing the email password) |
-| EMAIL | desired user email localpart@domain.tld |
-| NEXTCLOUDAPIURL | url to connect to nextcloud |
-| NEXTCLOUDBASICAUTH | user:password for nextcloud admin encoded with Base64 |
-| MIGADUBASICAUTH | user:password for migadu admin encoded with Base64 |
-| MIGADUURL | Url to connect to migadu |
+| Argument           | Description                                                                                                                                |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| USERNAME           | username/userid to be used at nextcloud                                                                                                    |
+| DISPLAYNAME        | full user name, will be used at both nextcloud and migadu                                                                                  |
+| PASSWORD           | user's password, both for nextcloud and for the email (which should be used inside nextcloud, without the user knowing the email password) |
+| EMAIL              | desired user email localpart@domain.tld                                                                                                    |
+| NEXTCLOUDBASICAUTH | user:password for nextcloud admin encoded with Base64                                                                                      |
+| NEXTCLOUDAPIURL    | url to connect to nextcloud i.e. https://cloud.example.com/ocs/v1.php/                                                                     |
+| MIGADUBASICAUTH    | user:password for migadu admin encoded with Base64                                                                                         |
+| MIGADUURL          | Url to connect to migadu i.e. https://api.migadu.com/v1/                                                                                   |

@@ -43,7 +43,7 @@ tasks.withType<KotlinCompile>() {
 }
 
 application {
-    mainClass.set("br.com.semudando.MainKt")
+    mainClass.set("br.com.semudando.CreateUserKt")
 }
 
 detekt {
